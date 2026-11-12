@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240" role="img" aria-label="Atividades por dia (últimos 14 dias)">
+<style>.t{font:600 14px sans-serif;fill:#24292f}.r{font:11px sans-serif;fill:#57606a}.b{fill:#1f6feb}.l{stroke:#d0d7de}@media(prefers-color-scheme:dark){.t{fill:#e6edf3}.r{fill:#8b949e}.b{fill:#58a6ff}.l{stroke:#30363d}}</style>
+<text class="t" x="40" y="24">Atividades por dia (últimos 14 dias)</text>
+<line class="l" x1="40" y1="204" x2="720" y2="204"/>
+<rect class="b" x="47.3" y="204.0" width="34.0" height="0.0" rx="3"/>
+<text class="r" x="64.3" y="199.0" text-anchor="middle">0</text>
+<text class="r" x="64.3" y="222" text-anchor="middle">30/10</text>
+<rect class="b" x="95.9" y="204.0" width="34.0" height="0.0" rx="3"/>
+<text class="r" x="112.9" y="199.0" text-anchor="middle">0</text>
+<text class="r" x="112.9" y="222" text-anchor="middle">31/10</text>
+<rect class="b" x="144.4" y="204.0" width="34.0" height="0.0" rx="3"/>
+<text class="r" x="161.4" y="199.0" text-anchor="middle">0</text>
+<text class="r" x="161.4" y="222" text-anchor="middle">01/11</text>
+<rect class="b" x="193.0" y="204.0" width="34.0" height="0.0" rx="3"/>
+<text class="r" x="210.0" y="199.0" text-anchor="middle">0</text>
+<text class="r" x="210.0" y="222" text-anchor="middle">02/11</text>
+<rect class="b" x="241.6" y="204.0" width="34.0" height="0.0" rx="3"/>
+<text class="r" x="258.6" y="199.0" text-anchor="middle">0</text>
+<text class="r" x="258.6" y="222" text-anchor="middle">03/11</text>
+<rect class="b" x="290.1" y="40.0" width="34.0" height="164.0" rx="3"/>
+<text class="r" x="307.1" y="35.0" text-anchor="middle">3</text>
+<text class="r" x="307.1" y="222" text-anchor="middle">04/11</text>
+<rect class="b" x="338.7" y="149.3" width="34.0" height="54.7" rx="3"/>
+<text class="r" x="355.7" y="144.3" text-anchor="middle">1</text>
+<text class="r" x="355.7" y="222" text-anchor="middle">05/11</text>
+<rect class="b" x="387.3" y="204.0" width="34.0" height="0.0" rx="3"/>
+<text class="r" x="404.3" y="199.0" text-anchor="middle">0</text>
+<text class="r" x="404.3" y="222" text-anchor="middle">06/11</text>
+<rect class="b" x="435.9" y="204.0" width="34.0" height="0.0" rx="3"/>
+<text class="r" x="452.9" y="199.0" text-anchor="middle">0</text>
+<text class="r" x="452.9" y="222" text-anchor="middle">07/11</text>
+<rect class="b" x="484.4" y="204.0" width="34.0" height="0.0" rx="3"/>
+<text class="r" x="501.4" y="199.0" text-anchor="middle">0</text>
+<text class="r" x="501.4" y="222" text-anchor="middle">08/11</text>
+<rect class="b" x="533.0" y="204.0" width="34.0" height="0.0" rx="3"/>
+<text class="r" x="550.0" y="199.0" text-anchor="middle">0</text>
+<text class="r" x="550.0" y="222" text-anchor="middle">09/11</text>
+<rect class="b" x="581.6" y="204.0" width="34.0" height="0.0" rx="3"/>
+<text class="r" x="598.6" y="199.0" text-anchor="middle">0</text>
+<text class="r" x="598.6" y="222" text-anchor="middle">10/11</text>
+<rect class="b" x="630.1" y="204.0" width="34.0" height="0.0" rx="3"/>
+<text class="r" x="647.1" y="199.0" text-anchor="middle">0</text>
+<text class="r" x="647.1" y="222" text-anchor="middle">11/11</text>
+<rect class="b" x="678.7" y="40.0" width="34.0" height="164.0" rx="3"/>
+<text class="r" x="695.7" y="35.0" text-anchor="middle">3</text>
+<text class="r" x="695.7" y="222" text-anchor="middle">12/11</text>
+</svg>
