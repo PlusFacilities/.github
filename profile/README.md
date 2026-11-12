@@ -8,13 +8,13 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--SEMANA:INICIO-->
 | Métrica | Esta semana | Semana passada | Variação |
 |---|---|---|---|
-| Commits | 3 | 4 | -25% |
+| Commits | 7 | 4 | +75% |
 | PRs abertos | 0 | 0 | — |
 | PRs mesclados | 0 | 0 | — |
 | Revisões | 0 | 0 | — |
 | Issues abertas | 0 | 0 | — |
 | Issues fechadas | 0 | 0 | — |
-| **Total de atividades** | 3 | 4 | -25% |
+| **Total de atividades** | 7 | 4 | +75% |
 | Repositórios com commits | 1 | 1 | +0% |
 <!--SEMANA:FIM-->
 
@@ -25,7 +25,7 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--DIARIO:INICIO-->
 | Dia | Commits | PRs abertos | PRs mesclados | Revisões | Issues abertas | Issues fechadas | Total |
 |---|---|---|---|---|---|---|---|
-| qui 12/11 | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| qui 12/11 | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | qua 11/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ter 10/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | seg 09/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -48,7 +48,7 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--SEMANAL:INICIO-->
 | Semana | Commits | PRs abertos | PRs mesclados | Revisões | Issues abertas | Issues fechadas | Total |
 |---|---|---|---|---|---|---|---|
-| Semana de 09/11 | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| Semana de 09/11 | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | Semana de 02/11 | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | Semana de 26/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Semana de 19/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
