@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: metricas
+  cancel-in-progress: false
+
 jobs:
   atualizar:
     runs-on: ubuntu-latest
@@ -35,5 +39,6 @@ jobs:
             echo "Sem mudanças."
           else
             git commit -m "chore: atualiza métricas de produtividade"
+            git pull --rebase
             git push
           fi
