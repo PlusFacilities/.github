@@ -23,6 +23,7 @@ jobs:
           GH_TOKEN: ${{ secrets.ORG_STATS_TOKEN }}
           GH_ORG: PlusFacilities
           TZ: America/Sao_Paulo
+          DIAGNOSTICO: "true"
         run: python scripts/coletar_metricas.py
 
       - name: Salvar alterações
