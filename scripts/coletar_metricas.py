@@ -9,6 +9,7 @@ Variáveis de ambiente:
   GH_TOKEN  token com leitura de Contents, Pull requests, Issues e Metadata (obrigatório)
   GH_ORG    organização a consultar (padrão: PlusFacilities)
   TZ        fuso para agrupar os dias (padrão: America/Sao_Paulo)
+  DIAGNOSTICO  "true" imprime no log contagens por repositório (sem nomes)
 """
 import json
 import os
@@ -23,6 +24,7 @@ from zoneinfo import ZoneInfo
 
 ORG = os.environ.get("GH_ORG", "PlusFacilities")
 TOKEN = os.environ.get("GH_TOKEN", "")
+DIAGNOSTICO = os.environ.get("DIAGNOSTICO", "false").lower() == "true"
 TZ = ZoneInfo(os.environ.get("TZ", "America/Sao_Paulo"))
 DIAS, SEMANAS = 14, 12
 RAIZ = Path(os.environ.get("RAIZ", Path(__file__).resolve().parent.parent))
@@ -44,7 +46,7 @@ query($org: String!, $cursor: String) {
   organization(login: $org) {
     repositories(first: 50, after: $cursor, orderBy: {field: PUSHED_AT, direction: DESC}) {
       pageInfo { hasNextPage endCursor }
-      nodes { id pushedAt isArchived primaryLanguage { name } }
+      nodes { id pushedAt isArchived isPrivate primaryLanguage { name } }
     }
   }
 }
@@ -163,6 +165,15 @@ def coletar(primeiro_dia):
     for no in paginar(Q_BUSCA, {"q": f"org:{ORG} is:issue updated:>={data_busca}"}, ("search",)):
         conta(no.get("createdAt"), "issues_abertas")
         conta(no.get("closedAt"), "issues_fechadas")
+    privados = sum(1 for r in repos if r["isPrivate"])
+    print(f"Repositórios analisados: {len(repos)} ({privados} privados).")
+    if repos and privados == 0:
+        print("AVISO: nenhum repositório privado visível; o token pode estar limitado a repositórios públicos.")
+    if DIAGNOSTICO:
+        for i, repo in enumerate(repos, 1):
+            dias_repo = commits_repo.get(repo["id"], {})
+            ultimo = max(dias_repo) if dias_repo else "nenhum"
+            print(f"  repositório {i}: {sum(dias_repo.values())} commits no período; último em {ultimo}")
     return por_dia, commits_repo, linguagem
 
 
@@ -236,6 +247,9 @@ def main():
     dias = [hoje - timedelta(days=i) for i in range(DIAS - 1, -1, -1)]
 
     por_dia, commits_repo, linguagem = coletar(semanas[0])
+    if DIAGNOSTICO:
+        print("Commits por dia: " + ", ".join(
+            f"{d:%d/%m}={por_dia[d]['commits'] if d in por_dia else 0}" for d in dias))
 
     def dias_da_semana(seg):
         return [seg + timedelta(days=i) for i in range(7)]
