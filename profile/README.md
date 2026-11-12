@@ -8,14 +8,14 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--SEMANA:INICIO-->
 | Métrica | Esta semana | Semana passada | Variação |
 |---|---|---|---|
-| Commits | 9 | 4 | +125% |
+| Commits | 28 | 19 | +47% |
 | PRs abertos | 0 | 0 | — |
 | PRs mesclados | 0 | 0 | — |
 | Revisões | 0 | 0 | — |
-| Issues abertas | 0 | 0 | — |
-| Issues fechadas | 0 | 0 | — |
-| **Total de atividades** | 9 | 4 | +125% |
-| Repositórios com commits | 1 | 1 | +0% |
+| Issues abertas | 26 | 8 | +225% |
+| Issues fechadas | 16 | 8 | +100% |
+| **Total de atividades** | 70 | 35 | +100% |
+| Repositórios com commits | 2 | 2 | +0% |
 <!--SEMANA:FIM-->
 
 ### Dia a dia (últimos 14 dias)
@@ -25,14 +25,14 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--DIARIO:INICIO-->
 | Dia | Commits | PRs abertos | PRs mesclados | Revisões | Issues abertas | Issues fechadas | Total |
 |---|---|---|---|---|---|---|---|
-| qui 12/11 | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
-| qua 11/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| ter 10/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| seg 09/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| qui 12/11 | 14 | 0 | 0 | 0 | 12 | 3 | 29 |
+| qua 11/11 | 3 | 0 | 0 | 0 | 0 | 4 | 7 |
+| ter 10/11 | 1 | 0 | 0 | 0 | 7 | 2 | 10 |
+| seg 09/11 | 10 | 0 | 0 | 0 | 7 | 7 | 24 |
 | dom 08/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | sáb 07/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| sex 06/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| qui 05/11 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| sex 06/11 | 13 | 0 | 0 | 0 | 8 | 8 | 29 |
+| qui 05/11 | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | qua 04/11 | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | ter 03/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | seg 02/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -48,8 +48,8 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--SEMANAL:INICIO-->
 | Semana | Commits | PRs abertos | PRs mesclados | Revisões | Issues abertas | Issues fechadas | Total |
 |---|---|---|---|---|---|---|---|
-| Semana de 09/11 | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
-| Semana de 02/11 | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
+| Semana de 09/11 | 28 | 0 | 0 | 0 | 26 | 16 | 70 |
+| Semana de 02/11 | 19 | 0 | 0 | 0 | 8 | 8 | 35 |
 | Semana de 26/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Semana de 19/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Semana de 12/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
