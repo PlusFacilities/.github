@@ -26,7 +26,7 @@ ORG = os.environ.get("GH_ORG", "PlusFacilities")
 TOKEN = os.environ.get("GH_TOKEN", "")
 DIAGNOSTICO = os.environ.get("DIAGNOSTICO", "false").lower() == "true"
 TZ = ZoneInfo(os.environ.get("TZ", "America/Sao_Paulo"))
-DIAS, SEMANAS = 14, 12
+DIAS_UTEIS, SEMANAS = 10, 12
 RAIZ = Path(os.environ.get("RAIZ", Path(__file__).resolve().parent.parent))
 README = RAIZ / "profile" / "README.md"
 ASSETS = RAIZ / "profile" / "assets"
@@ -244,7 +244,12 @@ def main():
     hoje = agora.date()
     segunda = hoje - timedelta(days=hoje.weekday())
     semanas = [segunda - timedelta(weeks=i) for i in range(SEMANAS - 1, -1, -1)]
-    dias = [hoje - timedelta(days=i) for i in range(DIAS - 1, -1, -1)]
+    dias, d = [], hoje  # últimos dias úteis (segunda a sexta), do mais antigo ao mais recente
+    while len(dias) < DIAS_UTEIS:
+        if d.weekday() < 5:
+            dias.append(d)
+        d -= timedelta(days=1)
+    dias.reverse()
 
     por_dia, commits_repo, linguagem = coletar(semanas[0])
     if DIAGNOSTICO:
@@ -276,7 +281,7 @@ def main():
         linhas_dia.append([f"{DIAS_SEMANA[d.weekday()]} {d:%d/%m}", *[r[c] for c in CAMPOS], total(r)])
     svg_dia = svg_barras([f"{d:%d/%m}" for d in dias],
                          [total(por_dia.get(d, vazio)) for d in dias],
-                         f"Atividades por dia (últimos {DIAS} dias)")
+                         f"Atividades por dia (últimos {DIAS_UTEIS} dias úteis)")
 
     # Semanal
     soma_semana = [somar(dias_da_semana(s), por_dia) for s in semanas]
