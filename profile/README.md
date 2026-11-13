@@ -8,13 +8,13 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--SEMANA:INICIO-->
 | Métrica | Esta semana | Semana passada | Variação |
 |---|---|---|---|
-| Commits | 30 | 19 | +58% |
+| Commits | 33 | 19 | +74% |
 | PRs abertos | 0 | 0 | — |
 | PRs mesclados | 0 | 0 | — |
 | Revisões | 0 | 0 | — |
 | Issues abertas | 26 | 8 | +225% |
 | Issues fechadas | 16 | 8 | +100% |
-| **Total de atividades** | 72 | 35 | +106% |
+| **Total de atividades** | 75 | 35 | +114% |
 | Repositórios com commits | 2 | 2 | +0% |
 <!--SEMANA:FIM-->
 
@@ -25,20 +25,16 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--DIARIO:INICIO-->
 | Dia | Commits | PRs abertos | PRs mesclados | Revisões | Issues abertas | Issues fechadas | Total |
 |---|---|---|---|---|---|---|---|
-| sex 13/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sex 13/11 | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | qui 12/11 | 16 | 0 | 0 | 0 | 12 | 3 | 31 |
 | qua 11/11 | 3 | 0 | 0 | 0 | 0 | 4 | 7 |
 | ter 10/11 | 1 | 0 | 0 | 0 | 7 | 2 | 10 |
 | seg 09/11 | 10 | 0 | 0 | 0 | 7 | 7 | 24 |
-| dom 08/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| sáb 07/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | sex 06/11 | 13 | 0 | 0 | 0 | 8 | 8 | 29 |
 | qui 05/11 | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | qua 04/11 | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | ter 03/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | seg 02/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| dom 01/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| sáb 31/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 <!--DIARIO:FIM-->
 
 ### Semana a semana (últimas 12 semanas)
@@ -48,7 +44,7 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--SEMANAL:INICIO-->
 | Semana | Commits | PRs abertos | PRs mesclados | Revisões | Issues abertas | Issues fechadas | Total |
 |---|---|---|---|---|---|---|---|
-| Semana de 09/11 | 30 | 0 | 0 | 0 | 26 | 16 | 72 |
+| Semana de 09/11 | 33 | 0 | 0 | 0 | 26 | 16 | 75 |
 | Semana de 02/11 | 19 | 0 | 0 | 0 | 8 | 8 | 35 |
 | Semana de 26/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Semana de 19/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
