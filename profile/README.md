@@ -1,4 +1,4 @@
-## Produtividade da equipe
+## Produtividade
 
 Números agregados de todos os repositórios da organização, atualizados automaticamente todos os dias.
 **Última atualização:** <!--ATUALIZADO:INICIO-->13/11/2026<!--ATUALIZADO:FIM-->
@@ -18,7 +18,7 @@ Números agregados de todos os repositórios da organização, atualizados autom
 | Repositórios com commits | 2 | 2 | +0% |
 <!--SEMANA:FIM-->
 
-### Dia a dia (últimos 14 dias)
+### Dia a dia (últimos 10 dias úteis)
 
 ![Atividades por dia](https://raw.githubusercontent.com/PlusFacilities/.github/main/profile/assets/diario.svg)
 
