@@ -8,13 +8,10 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--SEMANA:INICIO-->
 | Métrica | Esta semana | Semana passada | Variação |
 |---|---|---|---|
-| Commits | 33 | 19 | +74% |
-| PRs abertos | 0 | 0 | — |
-| PRs mesclados | 0 | 0 | — |
-| Revisões | 0 | 0 | — |
+| Commits | 35 | 19 | +84% |
 | Issues abertas | 26 | 8 | +225% |
 | Issues fechadas | 16 | 8 | +100% |
-| **Total de atividades** | 75 | 35 | +114% |
+| **Total de atividades** | 77 | 35 | +120% |
 | Repositórios com commits | 2 | 2 | +0% |
 <!--SEMANA:FIM-->
 
@@ -23,18 +20,18 @@ Números agregados de todos os repositórios da organização, atualizados autom
 ![Atividades por dia](https://raw.githubusercontent.com/PlusFacilities/.github/main/profile/assets/diario.svg)
 
 <!--DIARIO:INICIO-->
-| Dia | Commits | PRs abertos | PRs mesclados | Revisões | Issues abertas | Issues fechadas | Total |
-|---|---|---|---|---|---|---|---|
-| sex 13/11 | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| qui 12/11 | 16 | 0 | 0 | 0 | 12 | 3 | 31 |
-| qua 11/11 | 3 | 0 | 0 | 0 | 0 | 4 | 7 |
-| ter 10/11 | 1 | 0 | 0 | 0 | 7 | 2 | 10 |
-| seg 09/11 | 10 | 0 | 0 | 0 | 7 | 7 | 24 |
-| sex 06/11 | 13 | 0 | 0 | 0 | 8 | 8 | 29 |
-| qui 05/11 | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| qua 04/11 | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| ter 03/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| seg 02/11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Dia | Commits | Issues abertas | Issues fechadas | Total |
+|---|---|---|---|---|
+| sex 13/11 | 5 | 0 | 0 | 5 |
+| qui 12/11 | 16 | 12 | 3 | 31 |
+| qua 11/11 | 3 | 0 | 4 | 7 |
+| ter 10/11 | 1 | 7 | 2 | 10 |
+| seg 09/11 | 10 | 7 | 7 | 24 |
+| sex 06/11 | 13 | 8 | 8 | 29 |
+| qui 05/11 | 3 | 0 | 0 | 3 |
+| qua 04/11 | 3 | 0 | 0 | 3 |
+| ter 03/11 | 0 | 0 | 0 | 0 |
+| seg 02/11 | 0 | 0 | 0 | 0 |
 <!--DIARIO:FIM-->
 
 ### Semana a semana (últimas 12 semanas)
@@ -42,20 +39,20 @@ Números agregados de todos os repositórios da organização, atualizados autom
 ![Atividades por semana](https://raw.githubusercontent.com/PlusFacilities/.github/main/profile/assets/semanal.svg)
 
 <!--SEMANAL:INICIO-->
-| Semana | Commits | PRs abertos | PRs mesclados | Revisões | Issues abertas | Issues fechadas | Total |
-|---|---|---|---|---|---|---|---|
-| Semana de 09/11 | 33 | 0 | 0 | 0 | 26 | 16 | 75 |
-| Semana de 02/11 | 19 | 0 | 0 | 0 | 8 | 8 | 35 |
-| Semana de 26/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Semana de 19/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Semana de 12/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Semana de 05/10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Semana de 28/09 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Semana de 21/09 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Semana de 14/09 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Semana de 07/09 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Semana de 31/08 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Semana de 24/08 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Semana | Commits | Issues abertas | Issues fechadas | Total |
+|---|---|---|---|---|
+| Semana de 09/11 | 35 | 26 | 16 | 77 |
+| Semana de 02/11 | 19 | 8 | 8 | 35 |
+| Semana de 26/10 | 0 | 0 | 0 | 0 |
+| Semana de 19/10 | 0 | 0 | 0 | 0 |
+| Semana de 12/10 | 0 | 0 | 0 | 0 |
+| Semana de 05/10 | 0 | 0 | 0 | 0 |
+| Semana de 28/09 | 0 | 0 | 0 | 0 |
+| Semana de 21/09 | 0 | 0 | 0 | 0 |
+| Semana de 14/09 | 0 | 0 | 0 | 0 |
+| Semana de 07/09 | 0 | 0 | 0 | 0 |
+| Semana de 31/08 | 0 | 0 | 0 | 0 |
+| Semana de 24/08 | 0 | 0 | 0 | 0 |
 <!--SEMANAL:FIM-->
 
 ### Linguagens mais usadas
