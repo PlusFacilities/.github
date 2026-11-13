@@ -30,12 +30,9 @@ DIAS_UTEIS, SEMANAS = 10, 12
 RAIZ = Path(os.environ.get("RAIZ", Path(__file__).resolve().parent.parent))
 README = RAIZ / "profile" / "README.md"
 ASSETS = RAIZ / "profile" / "assets"
-CAMPOS = ("commits", "prs_abertos", "prs_mesclados", "revisoes", "issues_abertas", "issues_fechadas")
+CAMPOS = ("commits", "issues_abertas", "issues_fechadas")
 ROTULOS = {
     "commits": "Commits",
-    "prs_abertos": "PRs abertos",
-    "prs_mesclados": "PRs mesclados",
-    "revisoes": "Revisões",
     "issues_abertas": "Issues abertas",
     "issues_fechadas": "Issues fechadas",
 }
@@ -76,7 +73,6 @@ query($q: String!, $cursor: String) {
   search(query: $q, type: ISSUE, first: 50, after: $cursor) {
     pageInfo { hasNextPage endCursor }
     nodes {
-      ... on PullRequest { createdAt mergedAt reviews(first: 50) { nodes { submittedAt } } }
       ... on Issue { createdAt closedAt }
     }
   }
@@ -157,11 +153,6 @@ def coletar(primeiro_dia):
                 por_dia[d][campo] += 1
 
     data_busca = primeiro_dia.isoformat()
-    for no in paginar(Q_BUSCA, {"q": f"org:{ORG} is:pr updated:>={data_busca}"}, ("search",)):
-        conta(no.get("createdAt"), "prs_abertos")
-        conta(no.get("mergedAt"), "prs_mesclados")
-        for rev in (no.get("reviews") or {}).get("nodes", []):
-            conta(rev.get("submittedAt"), "revisoes")
     for no in paginar(Q_BUSCA, {"q": f"org:{ORG} is:issue updated:>={data_busca}"}, ("search",)):
         conta(no.get("createdAt"), "issues_abertas")
         conta(no.get("closedAt"), "issues_fechadas")
