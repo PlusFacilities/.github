@@ -235,7 +235,7 @@ def main():
     hoje = agora.date()
     segunda = hoje - timedelta(days=hoje.weekday())
     semanas = [segunda - timedelta(weeks=i) for i in range(SEMANAS - 1, -1, -1)]
-    dias, d = [], hoje  # últimos dias úteis (segunda a sexta), do mais antigo ao mais recente
+    dias, d = [], hoje - timedelta(days=1)  # últimos dias úteis já encerrados (segunda a sexta), sem hoje
     while len(dias) < DIAS_UTEIS:
         if d.weekday() < 5:
             dias.append(d)
