@@ -1,18 +1,18 @@
 ## Produtividade
 
 Números agregados de todos os repositórios da organização, atualizados automaticamente todos os dias.
-**Última atualização:** <!--ATUALIZADO:INICIO-->16/11/2026<!--ATUALIZADO:FIM-->
+**Última atualização:** <!--ATUALIZADO:INICIO-->17/11/2026<!--ATUALIZADO:FIM-->
 
 ### Resumo da semana
 
 <!--SEMANA:INICIO-->
 | Métrica | Esta semana | Semana passada | Variação |
 |---|---|---|---|
-| Commits | 4 | 41 | -90% |
+| Commits | 8 | 41 | -80% |
 | Issues abertas | 0 | 26 | -100% |
 | Issues fechadas | 0 | 18 | -100% |
-| **Total de atividades** | 4 | 85 | -95% |
-| Repositórios com commits | 1 | 2 | -50% |
+| **Total de atividades** | 8 | 85 | -91% |
+| Repositórios com commits | 2 | 2 | +0% |
 <!--SEMANA:FIM-->
 
 ### Dia a dia (últimos 10 dias úteis)
@@ -22,6 +22,7 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--DIARIO:INICIO-->
 | Dia | Commits | Issues abertas | Issues fechadas | Total |
 |---|---|---|---|---|
+| seg 16/11 | 8 | 0 | 0 | 8 |
 | sex 13/11 | 9 | 0 | 2 | 11 |
 | qui 12/11 | 16 | 12 | 3 | 31 |
 | qua 11/11 | 3 | 0 | 4 | 7 |
@@ -31,7 +32,6 @@ Números agregados de todos os repositórios da organização, atualizados autom
 | qui 05/11 | 3 | 0 | 0 | 3 |
 | qua 04/11 | 3 | 0 | 0 | 3 |
 | ter 03/11 | 0 | 0 | 0 | 0 |
-| seg 02/11 | 0 | 0 | 0 | 0 |
 <!--DIARIO:FIM-->
 
 ### Semana a semana (últimas 12 semanas)
@@ -41,7 +41,7 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--SEMANAL:INICIO-->
 | Semana | Commits | Issues abertas | Issues fechadas | Total |
 |---|---|---|---|---|
-| Semana de 16/11 | 4 | 0 | 0 | 4 |
+| Semana de 16/11 | 8 | 0 | 0 | 8 |
 | Semana de 09/11 | 41 | 26 | 18 | 85 |
 | Semana de 02/11 | 19 | 8 | 8 | 35 |
 | Semana de 26/10 | 0 | 0 | 0 | 0 |
