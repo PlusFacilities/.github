@@ -8,11 +8,11 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--SEMANA:INICIO-->
 | Métrica | Esta semana | Semana passada | Variação |
 |---|---|---|---|
-| Commits | 0 | 57 | -100% |
+| Commits | 5 | 58 | -91% |
 | Issues abertas | 0 | 0 | — |
 | Issues fechadas | 0 | 0 | — |
-| **Total de atividades** | 0 | 57 | -100% |
-| Repositórios com commits | 0 | 2 | -100% |
+| **Total de atividades** | 5 | 58 | -91% |
+| Repositórios com commits | 2 | 2 | +0% |
 <!--SEMANA:FIM-->
 
 ### Dia a dia (últimos 10 dias úteis)
@@ -22,7 +22,7 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--DIARIO:INICIO-->
 | Dia | Commits | Issues abertas | Issues fechadas | Total |
 |---|---|---|---|---|
-| sex 20/11 | 10 | 0 | 0 | 10 |
+| sex 20/11 | 11 | 0 | 0 | 11 |
 | qui 19/11 | 9 | 0 | 0 | 9 |
 | qua 18/11 | 11 | 0 | 0 | 11 |
 | ter 17/11 | 17 | 0 | 0 | 17 |
@@ -41,8 +41,8 @@ Números agregados de todos os repositórios da organização, atualizados autom
 <!--SEMANAL:INICIO-->
 | Semana | Commits | Issues abertas | Issues fechadas | Total |
 |---|---|---|---|---|
-| Semana de 23/11 | 0 | 0 | 0 | 0 |
-| Semana de 16/11 | 57 | 0 | 0 | 57 |
+| Semana de 23/11 | 5 | 0 | 0 | 5 |
+| Semana de 16/11 | 58 | 0 | 0 | 58 |
 | Semana de 09/11 | 41 | 26 | 18 | 85 |
 | Semana de 02/11 | 19 | 8 | 8 | 35 |
 | Semana de 26/10 | 0 | 0 | 0 | 0 |
