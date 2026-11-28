@@ -2,34 +2,34 @@
 <style>.t{font:600 14px sans-serif;fill:#24292f}.r{font:11px sans-serif;fill:#57606a}.b{fill:#1f6feb}.l{stroke:#d0d7de}@media(prefers-color-scheme:dark){.t{fill:#e6edf3}.r{fill:#8b949e}.b{fill:#58a6ff}.l{stroke:#30363d}}</style>
 <text class="t" x="40" y="24">Atividades por dia (últimos 10 dias úteis)</text>
 <line class="l" x1="40" y1="204" x2="720" y2="204"/>
-<rect class="b" x="50.2" y="165.6" width="47.6" height="38.4" rx="3"/>
-<text class="r" x="74.0" y="160.6" text-anchor="middle">11</text>
-<text class="r" x="74.0" y="222" text-anchor="middle">13/11</text>
-<rect class="b" x="118.2" y="176.1" width="47.6" height="27.9" rx="3"/>
-<text class="r" x="142.0" y="171.1" text-anchor="middle">8</text>
-<text class="r" x="142.0" y="222" text-anchor="middle">16/11</text>
-<rect class="b" x="186.2" y="144.7" width="47.6" height="59.3" rx="3"/>
-<text class="r" x="210.0" y="139.7" text-anchor="middle">17</text>
-<text class="r" x="210.0" y="222" text-anchor="middle">17/11</text>
-<rect class="b" x="254.2" y="165.6" width="47.6" height="38.4" rx="3"/>
-<text class="r" x="278.0" y="160.6" text-anchor="middle">11</text>
-<text class="r" x="278.0" y="222" text-anchor="middle">18/11</text>
-<rect class="b" x="322.2" y="172.6" width="47.6" height="31.4" rx="3"/>
-<text class="r" x="346.0" y="167.6" text-anchor="middle">9</text>
-<text class="r" x="346.0" y="222" text-anchor="middle">19/11</text>
-<rect class="b" x="390.2" y="165.6" width="47.6" height="38.4" rx="3"/>
-<text class="r" x="414.0" y="160.6" text-anchor="middle">11</text>
-<text class="r" x="414.0" y="222" text-anchor="middle">20/11</text>
-<rect class="b" x="458.2" y="113.3" width="47.6" height="90.7" rx="3"/>
-<text class="r" x="482.0" y="108.3" text-anchor="middle">26</text>
-<text class="r" x="482.0" y="222" text-anchor="middle">23/11</text>
-<rect class="b" x="526.2" y="40.0" width="47.6" height="164.0" rx="3"/>
-<text class="r" x="550.0" y="35.0" text-anchor="middle">47</text>
-<text class="r" x="550.0" y="222" text-anchor="middle">24/11</text>
-<rect class="b" x="594.2" y="43.5" width="47.6" height="160.5" rx="3"/>
-<text class="r" x="618.0" y="38.5" text-anchor="middle">46</text>
-<text class="r" x="618.0" y="222" text-anchor="middle">25/11</text>
-<rect class="b" x="662.2" y="106.3" width="47.6" height="97.7" rx="3"/>
-<text class="r" x="686.0" y="101.3" text-anchor="middle">28</text>
-<text class="r" x="686.0" y="222" text-anchor="middle">26/11</text>
+<rect class="b" x="50.2" y="176.1" width="47.6" height="27.9" rx="3"/>
+<text class="r" x="74.0" y="171.1" text-anchor="middle">8</text>
+<text class="r" x="74.0" y="222" text-anchor="middle">16/11</text>
+<rect class="b" x="118.2" y="144.7" width="47.6" height="59.3" rx="3"/>
+<text class="r" x="142.0" y="139.7" text-anchor="middle">17</text>
+<text class="r" x="142.0" y="222" text-anchor="middle">17/11</text>
+<rect class="b" x="186.2" y="165.6" width="47.6" height="38.4" rx="3"/>
+<text class="r" x="210.0" y="160.6" text-anchor="middle">11</text>
+<text class="r" x="210.0" y="222" text-anchor="middle">18/11</text>
+<rect class="b" x="254.2" y="172.6" width="47.6" height="31.4" rx="3"/>
+<text class="r" x="278.0" y="167.6" text-anchor="middle">9</text>
+<text class="r" x="278.0" y="222" text-anchor="middle">19/11</text>
+<rect class="b" x="322.2" y="165.6" width="47.6" height="38.4" rx="3"/>
+<text class="r" x="346.0" y="160.6" text-anchor="middle">11</text>
+<text class="r" x="346.0" y="222" text-anchor="middle">20/11</text>
+<rect class="b" x="390.2" y="113.3" width="47.6" height="90.7" rx="3"/>
+<text class="r" x="414.0" y="108.3" text-anchor="middle">26</text>
+<text class="r" x="414.0" y="222" text-anchor="middle">23/11</text>
+<rect class="b" x="458.2" y="40.0" width="47.6" height="164.0" rx="3"/>
+<text class="r" x="482.0" y="35.0" text-anchor="middle">47</text>
+<text class="r" x="482.0" y="222" text-anchor="middle">24/11</text>
+<rect class="b" x="526.2" y="43.5" width="47.6" height="160.5" rx="3"/>
+<text class="r" x="550.0" y="38.5" text-anchor="middle">46</text>
+<text class="r" x="550.0" y="222" text-anchor="middle">25/11</text>
+<rect class="b" x="594.2" y="106.3" width="47.6" height="97.7" rx="3"/>
+<text class="r" x="618.0" y="101.3" text-anchor="middle">28</text>
+<text class="r" x="618.0" y="222" text-anchor="middle">26/11</text>
+<rect class="b" x="662.2" y="92.3" width="47.6" height="111.7" rx="3"/>
+<text class="r" x="686.0" y="87.3" text-anchor="middle">32</text>
+<text class="r" x="686.0" y="222" text-anchor="middle">27/11</text>
 </svg>
